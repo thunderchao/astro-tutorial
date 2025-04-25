@@ -3,6 +3,15 @@ html {
     font-family: sans-serif;
   }
   
+  html.dark {
+    background-color: #0d0950;
+    color: #fff;
+  }
+  
+  .dark .nav-links a {
+    color: #fff;
+  }
+  
   body {
     margin: 0 auto;
     width: 100%;
@@ -80,4 +89,23 @@ html {
         display: none;
     }
   
+  }
+
+  /* tags */
+  a {
+    color: #00539F;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    margin: 0.25em;
+    border: dotted 1px #a1a1a1;
+    border-radius: .5em;
+    padding: .5em 1em;
+    font-size: 1.15em;
+    background-color: #F8FCFD;
   }
